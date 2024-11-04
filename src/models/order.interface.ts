@@ -1,7 +1,7 @@
-import Product from '../features/products/models/product.interface';
+import User from './user.interface';
+
 export default interface Order {
   id: number;
-  product: Product;
-  quantity: number;
+  user: User;
   date: Date;
 }
